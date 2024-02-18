@@ -21,7 +21,7 @@ SECRET_KEY = env("DJANGO_SECRET_KEY")
 DEBUG = env("DJANGO_DEBUG")
 
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", "ep-curly-thunder-a1z9txka.ap-southeast-1.aws.neon.fl0.io"]
-
+CSRF_TRUSTED_ORIGINS = ['https://taskmate.4.us-1.fl0.io']
 
 # Application definition
 
