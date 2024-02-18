@@ -2,6 +2,7 @@ from pathlib import Path
 import os
 import environ
 
+
 env = environ.Env()
 environ.Env.read_env()
 
@@ -82,7 +83,6 @@ DATABASES = {
         'PORT': env("DJANGO_DB_PORT"),
     }
 }
-
 
 
 # Password validation
