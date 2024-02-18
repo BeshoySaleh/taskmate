@@ -19,7 +19,7 @@ SECRET_KEY = env("DJANGO_SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env("DJANGO_DEBUG")
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "ep-curly-thunder-a1z9txka.ap-southeast-1.aws.neon.fl0.io"]
 
 
 # Application definition
@@ -82,6 +82,7 @@ DATABASES = {
         'PORT': env("DJANGO_DB_PORT"),
     }
 }
+
 
 
 # Password validation
