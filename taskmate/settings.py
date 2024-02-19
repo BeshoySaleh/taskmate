@@ -19,7 +19,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = env("DJANGO_SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["taskmate.4.us-1.fl0.io"]
 CSRF_TRUSTED_ORIGINS = ['https://taskmate.4.us-1.fl0.io']
