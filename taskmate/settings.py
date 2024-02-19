@@ -21,8 +21,8 @@ SECRET_KEY = env("DJANGO_SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
-# CSRF_TRUSTED_ORIGINS = ['https://']
+ALLOWED_HOSTS = ["taskmate.4.us-1.fl0.io"]
+CSRF_TRUSTED_ORIGINS = ['https://taskmate.4.us-1.fl0.io']
 
 # Application definition
 
